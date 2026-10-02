@@ -12,7 +12,8 @@ On the time-based validation folds it scores **1.60% MAPE**, against 4.69% for a
 
 ## How to run
 
-The whole solution is in `freight_rate_prediction.ipynb`.
+The whole solution is in `freight-rate-prediction.ipynb
+`.
 
 ### On Kaggle
 1. Upload the files in `data/` as a Kaggle dataset and attach it to the notebook.
@@ -26,7 +27,8 @@ Requires Python 3.10 or newer.
 
 ```bash
 python -m pip install -r requirements.txt jupyter
-jupyter notebook freight_rate_prediction.ipynb
+jupyter notebook freight-rate-prediction.ipynb
+
 ```
 
 Then **Run All**. The notebook reads the input files from `data/` and writes its outputs to the repository root.
