@@ -1,0 +1,9 @@
+model,fold1,fold2,fold3,mean_MAPE
+Lane median baseline,5.189,4.693,4.200,4.694
+"GBM, load features only",2.480,2.100,2.075,2.219
+GBM + time/market (unconstrained),4.318,3.773,2.161,3.417
+Hybrid: market_index,2.297,3.982,4.456,3.578
+Hybrid: + trend,4.633,2.116,2.148,2.966
+Hybrid: + quarter_end,2.593,2.037,1.939,2.190
+"Hybrid: + ramp, quote, weekday",1.872,1.699,1.812,1.795
+FINAL: hybrid + 2nd-pass cleaning,1.632,1.503,1.662,1.599
